@@ -1,0 +1,25 @@
+html{
+    background-color: black;}
+
+LinkSpace{
+    width: 100%;
+    height: 100%;
+    font-size: 60px;
+    font-style: italic;}
+
+a{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Shadows Into Light', cursive;}
+
+Git_Link:hover{
+    background-image: url(IMGS/Butten_Bass2.png);}
+
+Trello_Link:hover{
+    background-image: url(IMGS/Butten_Bass2.png);}
+
+MainCH_AW_Proplie:hover{
+    background-image: url(IMGS/Ch_AW.png);}
