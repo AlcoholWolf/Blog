@@ -1,0 +1,52 @@
+html{
+    background-color: black;
+    color: white;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.Top-Title{
+    position: top;
+    margin: 3%;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+a{
+    color: white;
+    text-decoration:none;
+}
+
+.Top-Title-Menu{
+    color: white;
+    font-size: 300%;
+    width: -90%;
+}
+
+.Top-Title-Menu:hover{
+    color: rgb(151, 151, 151);
+    font-size: 300%;
+}
+
+#WAH{
+    color: rgb(82, 82, 211);
+}
+
+.page_text{
+    border: solid white;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.text_title{
+    font-size: 50px;
+
+}
+
+.content_title{
+    text-align: center;
+}
