@@ -8,37 +8,109 @@
     <link rel="stylesheet" type="text/css" href="project_style.css">
 </head>
 <body>
-    <div class="Top-Title">
-        <img src="imgs/Ch_AW_NStar.png" width="10%">
 
-        <a href="index.html" class="Top-Title-Menu">
-            Alcoholwolf
-        </a>
+    <div>
 
-        <a href="#" class="Top-Title-Menu">
-            Portfolio
-        </a>
+        <div class="Top-Title">
 
-        <a href="project.html" class="Top-Title-Menu" id="WAH">
-            Project
-        </a>
+            <img src="imgs/Ch_AW_NStar.png" width="10%">
 
-    </div>
-    
-    <div class="page_text">
-        <p class="text_title">portpolio</p>
-        <p class="text_content">
-            deep/musin run
-        </p>
-    </div>
-    <div class="page_content" id="content_01">
-        <div class="content_title">
-            add
+            <a href="index.html" class="Top-Title-Menu">
+                Alcoholwolf
+            </a>
+
+            <a href="#" class="Top-Title-Menu">
+                Portfolio
+            </a>
+
+            <a href="project.html" class="Top-Title-Menu" id="WAH">
+                Project
+            </a>
+
         </div>
         
-    </div>
-    <div class="Title">
-        <a href="index.html" target="_blank">Go Title</a>
+        <div class="page_text">
+
+            <p class="text_title">
+                Classification model by English phonetic nationality
+                <br>
+                <BG class="ADD">
+                    Deep learning / Voice processing / Code review
+                </BG>
+            </p>
+
+            <p class="text_content" id="PP_img">
+                <img src="imgs/DACON_VoiceModel.JPG" alt="">
+            </p>
+
+        </div>
+
+        <div class="page_content" id="content_01">
+
+            <div>
+                <p class="EDA">
+                    Reference Code : Conv2D Network / Link : 
+                    <a href="https://dacon.io/competitions/official/235738/codeshare/2902" 
+                    id="color2" target="_blank">
+                        DACON Conv Net 1st
+                    </a>
+                </p>
+                <p class="EDA">
+                    Reference Code : Bassline Code / Link : 
+                    <a href="https://dacon.io/competitions/official/235738/codeshare/2688"
+                    id="color2" target="_blank">
+                        DACON Bassline Code
+                    </a>
+                </p>
+                <p class="EDA">
+                    Import Library : Clone as Git / Link : 
+                    <a href="https://github.com/AlcoholWolf/SDASSF"
+                    id="color2" target="_blank">
+                        AlcoholWolf Git Code
+                    </a>
+                </p>
+                <p class="EDA">
+                    Import Data : Dawnload / Link : 
+                    <a href="https://drive.google.com/u/0/uc?id=1kwyxHwhzi9kh9YcV_0a-oqeYUQmrRmtj&export=download"
+                    id="color2" target="_blank">
+                        Google Download Drive
+                    </a>
+                </p>
+                <p class="EDA" id="upperline">
+                    EDA : <br><br>
+                    테스트 데이터를 정렬하여 파일 순서(같은 사람 4명)으로 줄지어있는 파일에서<br>
+                    최대한 하나의 데이터셋에 같은 사람의 녹음본이 들어가지 않도록 4등분<br><br>
+                    여러 해상도를 학습하기 위해 200, 400, 800, 1000 해상도 설정<br><br>
+                    4등분한 데이터를 Min-Max로 스케일링 해준다. <br>
+                    (파일을 한번에 다 하면 6시간 가까이 걸리므로 나누어서 실행)<br><br>
+                    실행 후 전처리한 데이터셋을 저장해줍니다.
+                </p>
+                <p class="EDA" id="upperline">
+                    Network : <br><br>
+                    네트워크는 Conv2d, BatchNorm2d, ReLU 를 합친 block으로 주로 구성햇으며<br>
+                    output 전 dropout, AvgPool, AdaptiveAvgPool을 적용했습니다.<br><br>
+                    데이터를 배치단위로 불러올 때 train 데이터의 분포로 min-max scaling 해주었습니다.<br>
+                </p>
+                <p class="EDA" id="upperline">
+                    Model Stat : <br><br>
+                    batch_size : 128<br>
+                    epoch : 35<br>
+                    optimizer : adam<br>
+                    LearningRate : 1e-3<br>
+                    scheduler : CosineAnnealingLR<br>
+                    loss : CELoss<br>
+                </p>
+            </div>
+            
+        </div>
+
+        <div class="END">
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        </div>
+    
     </div>
 
 </body>

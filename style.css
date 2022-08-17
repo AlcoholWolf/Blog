@@ -25,6 +25,10 @@ a{
     width: -90%;
 }
 
+#slice-bar{
+    border-top: solid white;
+}
+
 #WAH{
     color: rgb(82, 82, 211);
 }
