@@ -1,0 +1,122 @@
+html{
+    background-color: black;
+    color: white;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.Top-Title{
+    position: top;
+    margin: 3%;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+a{
+    color: white;
+    text-decoration:none;
+}
+
+.Top-Title-Menu{
+    color: white;
+    font-size: 300%;
+    width: -90%;
+}
+
+.Top-Title-Menu:hover{
+    color: rgb(151, 151, 151);
+    font-size: 300%;
+}
+
+#WAH{
+    color: rgb(82, 82, 211);
+}
+
+
+.page_text{
+    border-top: solid white;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.text_title{
+    font-size: 50px;
+}
+.ADD{
+    font-size: 18px;
+}
+
+#PP_img{
+    border-top: 2px solid white;
+    padding-top: 50px;
+}
+.content_title{
+    text-align: center;
+}
+
+.EDA{
+    
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-bottom: 2px;
+    font-size: 20px;
+    color: white;
+}
+.EDA:hover{
+    color: rgb(156, 168, 240);
+}
+
+#color1{
+    color: rgb(78, 78, 78);
+}
+#color1:hover{
+    color: rgb(255, 255, 255);
+}
+
+#color2{
+    color: rgb(175, 174, 255);
+}
+#color2:hover{
+    color: rgb(0, 26, 255);
+}
+
+#color3{
+    color: rgb(63, 60, 255);
+}
+#color3:hover{
+    color: rgb(11, 30, 194);
+}
+
+#color4{
+    color: rgb(255, 255, 255);
+}
+#color4:hover{
+    color: rgb(255, 0, 0);
+}
+
+.JIT{
+    cursor:copy;
+}
+
+#upperline{
+    border-top: 2px solid white;
+    padding-top: 15px;
+}
+
+.CENT{
+    margin-top: 17%;
+    text-align: center;
+    color: rgb(36, 36, 36);
+    font-size: 20px;
+    font-weight: bold;
+}
+.CENT:hover{
+    text-align: center;
+    color: rgb(112, 112, 112);
+    font-size: 20px;
+    font-weight: bold;
+}
