@@ -52,3 +52,19 @@ a{
     font-size: 20px;
     font-weight: bold;
 }
+
+#LaftMText{
+    margin-left: 10%;
+    border-left: 6px solid white;
+    padding-left: 5%;
+
+    margin-top: 5%;
+}
+
+#LaftM2Text{
+    margin-left: 17%;
+    border-left: 6px solid white;
+    padding-left: 5%;
+    font-size: 27px;
+    margin-top: 5%;
+}
