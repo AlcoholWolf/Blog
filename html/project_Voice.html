@@ -59,6 +59,49 @@
             <BE class="EDA" id="ADW2">
             Import Data : Dawnload / Link : Google Download Drive<br><br>
             </BE>
+            
+            
+            <br><br>
+
+            <BE class="EDA" id="ADW">
+                특이점 :
+            </BE>
+            <br>
+            <BE class="EDA" id="ADW2">
+                Conv2D 네트워크를 사용합니다.
+            </BE>
+            <br>
+            <BE class="EDA" id="ADW2">
+                <img src="../imgs/Net.jpg">
+            </BE>
+            <br>
+            <BE class="EDA" id="ADW2">
+                데이터가 너무 큰 탓에 속도가 느리기도 하고, 처리할수도 없어서
+            </BE>
+            <br>
+            <BE class="EDA" id="ADW2">
+                완전히 따로 학습하는 모델 1개와 트레인 데이터를 처리하는 모델 4개가 합쳐진 1개의 모델
+            </BE>
+            <br>
+            <BE class="EDA" id="ADW2">
+                을 사용하여 저장/학습을 반복하여 해결햇습니다.
+            </BE>
+            <br>
+            <BE class="EDA" id="ADW2">
+                Conv2D라고 쓰여진 모델은 각 각 하나의 대분류된 채널(피치 기준)을 처리합니다
+            </BE>
+            <br>
+            <BE class="EDA" id="ADW2">
+                기준은 해상도, 규격은 피치값, 파라미터는 Loss값입니다.
+            </BE>
+            <br>
+            <BE class="EDA" id="ADW2">
+                기준인 해상도(5개)에 따라서 규격(8개)에 적용하여 Loss값을 적용해야 합니다
+            </BE>
+            
+            
+            <br><br>
+            
             <BE class="EDA" id="ADW">
                 EDA :<br>
             </BE>
@@ -74,6 +117,21 @@
                 여러 해상도를 학습하기 위해 200, 400, 800, 1000 해상도 설정
             </BE>
             <br>
+            <BE class="EDA" id="ADW2">
+                규격에 대한 최적화를 위해
+            </BE>
+            <br>
+            <BE class="EDA" id="ADW2">
+                대분류가 아닌 소분류로 "high"를 "high-low","high-middle" 로 나누어보기도 하엿지만
+            </BE>
+            <br>
+            <BE class="EDA" id="ADW2">
+                최 저 음역파 (low-low) 빼고는 loss값에 영향을 주지 않거나 Nan값을 도출하는걸 확인하엿습니다
+            </BE>
+            <br>
+            <BE class="EDA" id="ADW2">
+                최고음역파(high-high)는 인간이 낼 수 없는 소리값으로 인해 Nan(0)값을 도출하므로 제거시켯습니다.
+            </BE>
             <BE class="EDA" id="ADW2">
                 4등분한 데이터를 Min-Max로 스케일링 해준다.
             </BE>
@@ -130,7 +188,23 @@
             <BE class="EDA" id="ADW2">
                 loss : CELoss
             </BE>
+            <br><br>
+
+            <BE class="EDA" id="ADW">
+                Output :
+            </BE>
             <br>
+            <BE class="EDA" id="ADW2">
+                CELoss에 기반한 점수는 1.09- 가 나왔습니다.
+            </BE>
+            <br>
+            <BE class="EDA" id="ADW2">
+                1등팀의 CELoss 점수는 1.05- 2위가 1.07점이엇습니다.
+            </BE>
+            <br>
+            <BE class="EDA" id="ADW2">
+                01.wav 를 넣는다고 가정시, 01.wav가 1,2,3,4,5의 카테고리 중 1개에 해당함 이라는 결과를 
+            </BE>
 
         </div>
 
