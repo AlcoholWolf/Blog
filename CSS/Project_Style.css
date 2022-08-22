@@ -38,13 +38,13 @@ a{
 
 .page_text{
     border-top: solid white;
-    text-align: center;
     margin-bottom: 50px;
     color: white;
 }
 
 .text_title{
-    font-size: 50px;
+    font-size: 40px;
+    text-align: center;
 }
 .ADD{
     font-size: 18px;
@@ -124,6 +124,9 @@ a{
 #slice-bar{
     border-top: solid white;
 }
+#slice-bar2{
+    border-top: solid white 2px;
+}
 
 #ADW{
     border-left: 3px solid white;
@@ -135,4 +138,14 @@ a{
     border-left: 3px solid white;
     padding-left: 5px;
     margin-left: 20%;
+}
+
+.margin{
+    margin-top: 7%;
+}
+
+.text_title2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 3%;
 }
