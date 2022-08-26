@@ -1,5 +1,5 @@
 html{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 html, body{
@@ -8,10 +8,26 @@ html, body{
 }
 
 .Top-Title{
-    position: top;
-    margin: 3%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    margin-left: 3%;
+    margin-right: 4%;
     font-variant: small-caps;
     font-weight: bold;
+    background: black;
+    padding-bottom: -20px;
+    z-index: 1;
+}
+
+#TT{
+    margin-left: 6%;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+#black_back{
+    background-color: black;
 }
 
 a{
@@ -23,6 +39,7 @@ a{
     color: white;
     font-size: 300%;
     width: -90%;
+    transition: all 200ms;
 }
 
 #slice-bar{
@@ -36,6 +53,11 @@ a{
 .Top-Title-Menu:hover{
     color: rgb(151, 151, 151);
     font-size: 300%;
+    transition: all 200ms;
+}
+
+.Space{
+    margin-top: 10%;
 }
 
 ui{
@@ -44,6 +66,7 @@ ui{
 
 HV:hover{
     color: rgb(70, 70, 70);
+    transition: all 200ms;
 }
 .Mid-Text{
     color: white;
@@ -51,6 +74,11 @@ HV:hover{
 
 .LinkSpace:hover{
     color: rgb(70, 70, 70);
+    transition: all 200ms;
+}
+
+.LinkSpace{
+    transition: all 200ms;
 }
 
 .Mid-Callom{
@@ -106,17 +134,28 @@ i{
     color: rgb(36, 36, 36);
     font-size: 20px;
     font-weight: bold;
+    transition: all 200ms;
 }
 .CENT:hover{
     text-align: center;
     color: rgb(112, 112, 112);
     font-size: 20px;
     font-weight: bold;
+    transition: all 200ms;
 }
 .LaftMImg{
     margin-left: 50%;
     border-left: 6px solid white;
     padding-left: 5%;
     padding-top: 2%;
+    margin-top: 5%;
+}
+
+#ABSOL{
+    position:absolute;
+}
+
+#LaftM25Text{
+    margin-left: 4%;
     margin-top: 5%;
 }

@@ -8,13 +8,6 @@ html, body{
     height: 100%;
 }
 
-.Top-Title{
-    position: top;
-    margin: 3%;
-    font-variant: small-caps;
-    font-weight: bold;
-}
-
 a{
     color: white;
     text-decoration:none;
@@ -24,11 +17,12 @@ a{
     color: white;
     font-size: 300%;
     width: -90%;
+    transition: all 200ms;
 }
 
 .Top-Title-Menu:hover{
     color: rgb(151, 151, 151);
-    font-size: 300%;
+    transition: all 200ms;
 }
 
 #WAH{
@@ -37,7 +31,6 @@ a{
 
 
 .page_text{
-    border-top: solid white;
     margin-bottom: 50px;
     color: white;
 }
@@ -68,34 +61,43 @@ a{
 }
 .EDA:hover{
     color: rgb(156, 168, 240);
+    transition: all 200ms;
 }
 
 #color1{
     color: rgb(78, 78, 78);
+    transition: all 200ms;
 }
 #color1:hover{
     color: rgb(255, 255, 255);
+    transition: all 200ms;
 }
 
 #color2{
     color: rgb(175, 174, 255);
+    transition: all 200ms;
 }
 #color2:hover{
     color: rgb(0, 26, 255);
+    transition: all 200ms;
 }
 
 #color3{
     color: rgb(63, 60, 255);
+    transition: all 200ms;
 }
 #color3:hover{
     color: rgb(11, 30, 194);
+    transition: all 200ms;
 }
 
 #color4{
     color: rgb(255, 255, 255);
+    transition: all 200ms;
 }
 #color4:hover{
     color: rgb(255, 0, 0);
+    transition: all 200ms;
 }
 
 .JIT{
@@ -113,19 +115,29 @@ a{
     color: rgb(36, 36, 36);
     font-size: 20px;
     font-weight: bold;
+    transition: all 200ms;
 }
 .CENT:hover{
     text-align: center;
     color: rgb(112, 112, 112);
     font-size: 20px;
     font-weight: bold;
+    transition: all 200ms;
+}
+
+#slice-bar3{
+    border-top: solid white;
 }
 
 #slice-bar{
     border-top: solid white;
+    margin-left: 3%;
+    margin-right: 4%;
 }
 #slice-bar2{
     border-top: solid white 2px;
+    margin-left: 3%;
+    margin-right: 4%;
 }
 
 #ADW{
@@ -148,4 +160,47 @@ a{
     font-size: 40px;
     font-weight: bold;
     margin-left: 3%;
+}
+
+.Top-Title{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    margin-left: 3%;
+    margin-right: 4%;
+    font-variant: small-caps;
+    font-weight: bold;
+    background: black;
+    padding-bottom: -20px;
+    z-index: 1;
+}
+
+.Top-Title2{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    margin-left: 3%;
+    margin-right: 4%;
+    font-variant: small-caps;
+    font-weight: bold;
+    background: black;
+    padding-bottom: 3%;
+    z-index: 1;
+}
+
+.MJS{
+    position: -webkit-sticky;
+    position: sticky;
+    font-size: 240%;
+    margin-left: 85%;
+    top: 5%;
+    z-index: 2;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.MJS:hover{
+    transition: all 200ms;
+    z-index: 2;
+    font-size: 290%;
 }
