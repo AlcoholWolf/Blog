@@ -1,0 +1,61 @@
+/* 오른쪽 -> 왼쪽 */
+.Right_Slide_In{
+    animation: Right_Slide_In 1s;
+}
+
+@keyframes Right_Slide_In {
+    from{
+        margin-left: 100%;
+    }
+
+    to{
+        margin-left: 0%;
+    }
+}
+
+/* 왼쪽 -> 오른쪽 */
+.Left_Slide_In{
+    animation: Left_Slide_In 1s;
+}
+
+@keyframes Left_Slide_In {
+    from{
+        margin-right: 100%;
+    }
+
+    to{
+        margin-right: 0%;
+    }
+}
+
+/* 아래 -> 위 */
+#Slide_Up{
+    animation: Slide_Up 2s;
+}
+
+@keyframes Slide_Up {
+    from{
+        margin_top: 100%;
+    }
+
+    to{
+        margin_top: 3.4%;
+    }
+}
+
+/* 트렌제이션 */
+#TranZ_250{
+    transition: all 250ms;
+}
+
+#TranZ_500{
+    transition: all 500ms;
+}
+
+#TranZ_750{
+    transition: all 750ms;
+}
+
+#TranZ_1000{
+    transition: all 1000ms;
+}

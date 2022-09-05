@@ -1,0 +1,63 @@
+#white{
+    color: white;
+}
+
+#black{
+    color: black;
+}
+
+#red{
+    color: red;
+}
+
+#orange{
+    color: orange;
+}
+
+#yellow{
+    color: yellow;
+}
+
+#lime{
+    color: rgb(108, 255, 108);
+}
+
+#green{
+    color: green;
+}
+
+#sky{
+    color: skyblue
+}
+
+#blue{
+    color: blue;
+}
+
+#purple{
+    color: purple;
+}
+
+#gray{
+    color: gray;
+}
+
+#pink{
+    color: pink;
+}
+
+#mint{
+    color: mintcream;
+}
+
+#darkblue{
+    color: darkblue;
+}
+
+#deepdarkblue{
+    color: rgb(0, 0, 27);
+}
+
+#backblack{
+    background: black;
+}
