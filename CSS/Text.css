@@ -17,6 +17,7 @@
     font-weight: bold;
     color: rgb(39, 39, 39);
     transition: all 200ms;
+    position: relative;
 }
 .CENT:hover{
     color: gray;
