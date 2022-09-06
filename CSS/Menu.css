@@ -22,6 +22,55 @@
     top: 25%;
 }
 
+#Menu_B{
+    font-size: 200%;
+    position:absolute;
+    left: 3%;
+    top: 75%;
+}
+
+#Menu_C{
+    font-size: 200%;
+    position:absolute;
+    left: 14%;
+    top: 75%;
+}
+
+#Menu_D{
+    font-size: 200%;
+    position:absolute;
+    left: 24%;
+    top: 75%;
+}
+
+#Menu_E{
+    font-size: 200%;
+    position:absolute;
+    left: 44%;
+    top: 75%;
+}
+
+#Menu_F{
+    font-size: 200%;
+    position:absolute;
+    left: 57%;
+    top: 75%;
+}
+
+#Menu_G{
+    font-size: 700%;
+    position:absolute;
+    left: 11%;
+    top: 25%;
+}
+
+#Menu_H{
+    font-size: 700%;
+    position:absolute;
+    left: 11%;
+    top: 45%;
+}
+
 .Menu_A:hover{
     color: gray;
 }
