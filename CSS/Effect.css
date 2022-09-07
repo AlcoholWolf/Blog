@@ -59,3 +59,50 @@
 #TranZ_1000{
     transition: all 1000ms;
 }
+
+#POP{
+    animation: ROOT 10s;
+}
+
+@keyframes ROOT{
+    from{
+        color: white;
+    }
+    25%{
+        transform: rotate(119deg)
+            rotateX(274deg)
+            rotateY(11deg)
+            rotateZ(238deg)
+            perspective(500px)
+            scale(2)
+            translate(50px,10px)
+            skew(22deg,53deg);
+        transform-origin: 65% 55% -99px;
+    }
+    50%{
+        transform: rotate(195deg)
+            rotateX(155deg)
+            rotateY(155deg)
+            rotateZ(256deg)
+            perspective(1200px)
+            scale(0.9)
+            translate(40px,-60px)
+            skew(161deg,73deg);
+        transform-origin: 31% 27% -208px;
+    }
+    75%{
+        transform: rotate(184deg)
+            rotateX(273deg)
+            rotateY(182deg)
+            rotateZ(80deg)
+            perspective(1500px)
+            scale(1.6)
+            translate(20px,30px)
+            skew(100deg,85deg);
+        transform-origin: 83% 81% -99px;
+    }
+    to{
+        transform: perspective(700px);
+        transform-origin: center center;
+    }
+}
