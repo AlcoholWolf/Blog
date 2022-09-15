@@ -1,57 +1,75 @@
 <!DOCTYPE html>
-
+<!-- ko가 기본이지만 옵션으로 바꿀수 있게 -->
 <html lang="ko">
 
 <head>
 
+    <link rel="icon" href=".ICO File Path">
+    <title>Web Title</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discode</title>
 
+    <link rel="stylesheet" type="text/css" href=".CSS File Path">
+
+    <script src="js/script.js" type=".JS File Path"></script>
+    <!-- Chack Box-font Input -->
+    <script 
+    src="https://kit.fontawesome.com/e40dc26582.js" 
+    crossorigin="anonymous"></script>
+    <!-- Chack Box-Basic Css -->
+    <!-- Bagic Css 
+    1. 복붙 방지 : 드래그, 컨v 등을 할 수 없게 만듭니다
+    2. 화면에서 글자, 이미지가 벗어나지 않게 만듭니다.
+    3. A태그의 밑줄과 색깔을 기본지정 합니다.
+    4. 인풋의 맨 왼쪽 딱붙는걸 방지합니다.
+    5. 슬라이스 바 (애니메이션 첨부 가능) 를 사용 가능합니다. -->
+    <link rel="stylesheet" type="text/css" href="../CSS/Bagic.css">
+
+    <!-- Nope -->
     <link rel="stylesheet" type="text/css" href="../CSS/Text.css">
     <link rel="stylesheet" type="text/css" href="../CSS/Margin.css">
-    <link rel="stylesheet" type="text/css" href="../CSS/Bagic.css">
     <link rel="stylesheet" type="text/css" href="../CSS/Effect.css">
     <link rel="stylesheet" type="text/css" href="../CSS/Color.css">
     <link rel="stylesheet" type="text/css" href="../CSS/Menu.css">
 
-    <script src="../js/script.js" type="text/javascript"></script>
-    <script 
-    src="https://kit.fontawesome.com/e40dc26582.js" 
-    crossorigin="anonymous"></script>
+    <!-- 커스텀으로 추가 할 수 있도록 -->
+
 
 </head>
 
+<!-- RGB값으로 백그라운드의 색깔을 정할수 있게 함,
+    이미지로도 설정 가능하고, 반복일지, 늘일지, 등등을 선택할수 있게 함 -->
 <body id="backblack">
 
     <div id="white">
-        <div class="Menu">
+        <header class="Menu">
             
             <a 
-            href="../index.html" 
+            href="index.html" 
             class="Menu_A" 
             id="TranZ_250">
-                Mainpage
-                
+                <It id="sky">
+                    Mainpage
+                </It>
             </a>
 
             <a 
-            href="Portfolio.html"
+            href="html/Portfolio.html" 
             class="Menu_A" 
             id="TranZ_250">
-                    Portfolio
+                Portfolio
             </a>
 
             <a 
-            href="Project.html" 
+            href="html/Project.html" 
             class="Menu_A" 
             id="TranZ_250">
                 Project
             </a>
 
             <a 
-            href="Event.html" 
+            href="html/Event.html" 
             class="Menu_A" 
             id="TranZ_250">
                 Event
@@ -59,7 +77,7 @@
 
             <It class="Menu_Right">
                 <a 
-                href="Ilust.html" 
+                href="html/Ilust.html" 
                 class="Menu_A" 
                 id="TranZ_250">
                     <i class="fa-brands fa-accusoft"></i>
@@ -79,13 +97,11 @@
                     <i class="fa-brands fa-github"></i>
                 </a>
 
-                <a
-                href="Discode.html" 
+                <a 
+                href="html/Discode.html" 
                 class="Menu_A" 
                 id="TranZ_250">
-                    <It id="sky">
-                        <i class="fa-brands fa-discord"></i>
-                    </It>
+                    <i class="fa-brands fa-discord"></i>
                 </a>
 
                 <a 
@@ -95,9 +111,9 @@
                 target="_blank">
                     <i class="fa-solid fa-code"></i>
                 </a>
-
+                
                 <a 
-                href="Random.html" 
+                href="html/Random.html" 
                 class="Menu_A" 
                 id="TranZ_250">
                     <i class="fa-solid fa-dice"></i>
@@ -108,7 +124,7 @@
             <div id="slice-bar" class="Right_Slide_In"></div>
             <div id="TranZ_2s">Loading</div>
 
-        </div>
+        </header>
     </div>
 
     <div id="white">
@@ -121,51 +137,32 @@
             </It>
         </a>
     </div>
-        </div>
-        <div class="Space"></div>
-        <div class="Space"></div>
-        <div class="Space"></div>
 
-        <div class="Mid-Text">
+    <div id="white">
 
-            <BF id="LaftM25Text">
-                
-                <iframe 
-                    src="https://discordapp.com/widget?id=1009306077566881843&theme=dark" 
-                    width="91%" 
-                    height="600px" 
-                    allowtransparency="true" 
-                    frameborder="0" 
-                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
-                </iframe>
-            </BF>
+        <div class="END">
+            
+            <div class="CENT">
+                <footer>
+                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br><br>
 
-                
-
+                    해당 사이트의 글 그림, 디자인의 저작권은 AlcoholWolf에게 있습니다
+                    <br>
+                    text pictures and designs on the site are copyrighted by Alcohol Wolf
+                    <br><br>
+                    무단 도용, 퍼가기는 처벌의 대상이 될 수 있습니다
+                    <br>
+                    Unauthorized theft or scooping may be subject to punishment
+                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                </footer>
+            </div>
+            
         </div>
 
     </div>
-        
-    <div class="END">
-        
-        <div class="CENT">
-            <BF >
-
-                해당 사이트의 글 그림, 디자인의 저작권은 AlcoholWolf에게 있습니다
-                <br>
-                text pictures and designs on the site are copyrighted by Alcohol Wolf
-                <br><br>
-                무단 도용, 퍼가기는 처벌의 대상이 될 수 있습니다
-                <br>
-                Unauthorized theft or scooping may be subject to punishment
-                <br><br><br><br><br><br><br>
-            </BF>
-        </div>
-        
-    </div>
-
-</div>
-
+    
 </body>
+
 
 </html>

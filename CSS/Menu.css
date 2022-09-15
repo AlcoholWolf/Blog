@@ -7,7 +7,7 @@
     font-variant: small-caps;
     font-weight: bold;
     padding-bottom: -20px;
-    z-index: 1;
+    z-index: 2000000;
 }
 
 .Menu_A{
@@ -136,9 +136,9 @@
     background-color: black;
 }
 
-#TF:hover{
+/* #TF:hover{
     animation: Pop5 20s;
-}
+} */
 
 @keyframes Pop5 {
     from{
@@ -156,9 +156,9 @@
     }
 }
 
-.Up_Menu:hover{
+/* .Up_Menu:hover{
     color: aqua;
-}
+} */
 
 #Pop_Menu:hover{
     animation: Pop 8s;
@@ -188,3 +188,35 @@
     color: rgb(161, 161, 161);
     position: absolute;
 }
+#Clock{
+    background:black;
+}
+/* #Clock_Size{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    z-index: 54;
+}
+
+.Clock_S{
+    animation: Seq 60s 1s infinite;
+    transform-origin: bottom center;
+}
+.Clock_M{
+    animation: Min 3600s 60s infinite;
+}
+.Clock_H{
+    animation: Hur 43200s 600s infinite;
+}
+
+@keyframes Seq {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+/* #Colck_Size:hover{
+} */

@@ -18,3 +18,26 @@ a{
 #slice-bar{
     border-top: solid white;
 }
+
+html{
+    /* 드래그 방지 */
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+input {
+    /* 텍스트 가장자리 딱붙음 방지 */
+    padding: 10px 20px;
+}
+
+#backblack2{
+    background: black;
+}
+
+#INDEX{
+    width: 99.7%;
+    height: 10%;
+}

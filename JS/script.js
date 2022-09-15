@@ -1,12 +1,15 @@
-const startButten = document.querySelector('start_butten')
-const loading = document.querySelector('.loading')
+const Pop_Menu = document.querySelector('.PPMENU')
 
-$(document).ready(function(){
-    $('#slider_vol_x').mouseweheel(function(e,delta){
-        if ( delta > 0 ){
-            aa
-        } else if ( delta < 0 ){
-            aa
-        }
-    });
-});
+const date = new Date();
+
+const hours = date.getHours();
+const minutes = date.getMinutes();
+const seconds = date.getSeconds();
+
+
+
+function Clock(){
+    var target = document.getElementById("Box_Fire");
+
+    target.style.background = "red";
+}
