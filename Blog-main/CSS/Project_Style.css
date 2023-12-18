@@ -1,0 +1,206 @@
+html{
+    background-color: black;
+    color: white;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    color: white;
+    text-decoration:none;
+}
+
+.Top-Title-Menu{
+    color: white;
+    font-size: 300%;
+    width: -90%;
+    transition: all 200ms;
+}
+
+.Top-Title-Menu:hover{
+    color: rgb(151, 151, 151);
+    transition: all 200ms;
+}
+
+#WAH{
+    color: rgb(82, 82, 211);
+}
+
+
+.page_text{
+    margin-bottom: 50px;
+    color: white;
+}
+
+.text_title{
+    font-size: 40px;
+    text-align: center;
+}
+.ADD{
+    font-size: 18px;
+}
+
+#PP_img{
+    border-top: 2px solid white;
+    padding-top: 50px;
+}
+.content_title{
+    text-align: center;
+}
+
+.EDA{
+    
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-bottom: 2px;
+    font-size: 20px;
+    color: white;
+}
+.EDA:hover{
+    color: rgb(156, 168, 240);
+    transition: all 200ms;
+}
+
+#color1{
+    color: rgb(78, 78, 78);
+    transition: all 200ms;
+}
+#color1:hover{
+    color: rgb(255, 255, 255);
+    transition: all 200ms;
+}
+
+#color2{
+    color: rgb(175, 174, 255);
+    transition: all 200ms;
+}
+#color2:hover{
+    color: rgb(0, 26, 255);
+    transition: all 200ms;
+}
+
+#color3{
+    color: rgb(63, 60, 255);
+    transition: all 200ms;
+}
+#color3:hover{
+    color: rgb(11, 30, 194);
+    transition: all 200ms;
+}
+
+#color4{
+    color: rgb(255, 255, 255);
+    transition: all 200ms;
+}
+#color4:hover{
+    color: rgb(255, 0, 0);
+    transition: all 200ms;
+}
+
+.JIT{
+    cursor:copy;
+}
+
+#upperline{
+    border-top: 2px solid white;
+    padding-top: 15px;
+}
+
+.CENT{
+    margin-top: 17%;
+    text-align: center;
+    color: rgb(36, 36, 36);
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 200ms;
+}
+.CENT:hover{
+    text-align: center;
+    color: rgb(112, 112, 112);
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 200ms;
+}
+
+#slice-bar3{
+    border-top: solid white;
+}
+
+#slice-bar{
+    border-top: solid white;
+    margin-left: 3%;
+    margin-right: 4%;
+}
+#slice-bar2{
+    border-top: solid white 2px;
+    margin-left: 3%;
+    margin-right: 4%;
+}
+
+#ADW{
+    border-left: 3px solid white;
+    padding-left: 5px;
+    font-size: 30px;
+}
+
+#ADW2{
+    border-left: 3px solid white;
+    padding-left: 5px;
+    margin-left: 20%;
+}
+
+.margin{
+    margin-top: 7%;
+}
+
+.text_title2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+.Top-Title{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    margin-left: 3%;
+    margin-right: 4%;
+    font-variant: small-caps;
+    font-weight: bold;
+    background: black;
+    padding-bottom: -20px;
+    z-index: 1;
+}
+
+.Top-Title2{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    margin-left: 3%;
+    margin-right: 4%;
+    font-variant: small-caps;
+    font-weight: bold;
+    background: black;
+    padding-bottom: 5%;
+    z-index: 1;
+}
+
+.MJS{
+    position: -webkit-sticky;
+    position: sticky;
+    font-size: 240%;
+    margin-left: 85%;
+    top: 5%;
+    z-index: 2;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.MJS:hover{
+    transition: all 200ms;
+    z-index: 2;
+    font-size: 290%;
+}

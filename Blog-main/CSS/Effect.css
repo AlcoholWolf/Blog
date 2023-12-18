@@ -1,0 +1,190 @@
+/* 오른쪽 -> 왼쪽 */
+.Right_Slide_In{
+    animation: Right_Slide_In 1s;
+}
+
+@keyframes Right_Slide_In {
+    from{
+        margin-left: 100%;
+    }
+
+    to{
+        margin-left: 0%;
+    }
+}
+
+/* 왼쪽 -> 오른쪽 */
+.Left_Slide_In{
+    animation: Left_Slide_In 1s;
+}
+
+@keyframes Left_Slide_In {
+    from{
+        margin-right: 100%;
+    }
+
+    to{
+        margin-right: 0%;
+    }
+}
+
+/* 아래 -> 위 */
+
+#R2{
+    left: 2%;
+}
+#R3{
+    top: -3%;
+}
+
+.circle1{
+    animation: Slide_RF 2s infinite;
+    position: absolute;
+    top: 120%;
+    color: white;
+    font-size: 200%;
+}
+
+@keyframes Slide_RF {
+    from{
+        right: 120%;
+    }
+
+    to{
+        right: -7%;
+    }
+}
+
+.circle4{
+    animation: Slide_RF2 2s infinite;
+    position: absolute;
+    top: 120%;
+    color: white;
+    font-size: 200%;
+}
+
+@keyframes Slide_RF2 {
+    from{
+        left: 120%;
+    }
+
+    to{
+        left: -7%;
+    }
+}
+
+.circle2{
+    animation: Slide_Up 2s infinite;
+    position: absolute;
+    top: -40%;
+    color: white;
+    font-size: 200%;
+}
+
+@keyframes Slide_Up {
+    from{
+        top: -20%;
+    }
+
+    to{
+        top: 107%;
+    }
+}
+
+.circle3{
+    animation: Slide_DW 2s infinite;
+    position: absolute;
+    top: 120%;
+    color: white;
+    font-size: 200%;
+}
+
+@keyframes Slide_DW {
+    from{
+        top: 120%;
+    }
+
+    100%{
+        top: -7%;
+    }
+}
+
+/* 트렌제이션 */
+#TranZ_250{
+    transition: all 250ms;
+}
+
+#TranZ_500{
+    transition: all 500ms;
+}
+
+#TranZ_750{
+    transition: all 750ms;
+}
+
+#TranZ_2s{
+    animation: T2 2s;
+    position: absolute;
+    top: 99%;
+    right: 0%;
+    font-size: 200%;
+    color: rgba(0, 0, 0, 0);
+}
+
+@keyframes T2 {
+    from{
+        color: white;
+    }
+
+    to{
+        color: rgb(255, 255, 255);
+    }
+}
+
+#TranZ_2ts{
+    animation: Tt2 4s;
+    position: absolute;
+    top: 99%;
+    right: 0%;
+    font-size: 200%;
+    color: rgba(0, 0, 0, 0);
+}
+
+@keyframes Tt2 {
+    from{
+        color: rgba(0, 0, 0, 0);
+    }
+
+    49%{
+        color: rgba(0, 0, 0, 0);
+    }
+
+    50%{
+        color: white;
+    }
+
+    to{
+        color: rgba(0, 0, 0, 0);
+    }
+}
+
+#Mainpage_Loading_Effect{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-left: 17%;
+    margin-top: 4%;
+    font-size: 200%;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+
+NAC{
+    transition: all 400ms;
+    color: rgba(255, 255, 255, 0.356);
+}
+
+NAC:hover{
+    transition: all 400ms;
+    color: rgb(255, 255, 255);
+}

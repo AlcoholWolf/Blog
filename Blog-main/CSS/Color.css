@@ -1,0 +1,64 @@
+#white{
+    color: white;
+}
+
+#black{
+    color: black;
+}
+
+#red{
+    color: red;
+}
+
+#orange{
+    color: orange;
+}
+
+#yellow{
+    color: yellow;
+}
+/* site */
+#lime{
+    color: rgb(108, 255, 108);
+    font-size: 27px;
+}
+
+#green{
+    color: green;
+}
+
+#sky{
+    color: rgb(167, 230, 255)
+}
+
+#blue{
+    color: blue;
+}
+
+#purple{
+    color: purple;
+}
+
+#gray{
+    color: gray;
+}
+
+#pink{
+    color: pink;
+}
+
+#mint{
+    color: mintcream;
+}
+
+#darkblue{
+    color: darkblue;
+}
+
+#deepdarkblue{
+    color: rgb(0, 0, 27);
+}
+
+#backblack{
+    background: rgb(0, 0, 0);
+}

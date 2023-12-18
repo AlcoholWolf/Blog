@@ -1,0 +1,92 @@
+html{
+    background-color: black;
+    color: white;
+}
+
+.Space{
+    margin-top: 10%;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    color: white;
+    text-decoration:none;
+}
+
+.Top-Title-Menu{
+    color: white;
+    font-size: 300%;
+    width: -90%;
+    transition: all 700ms;
+    font-weight: bold;
+}
+
+.Top-Title-Menu:hover{
+    color: rgb(44, 44, 44);
+    font-size: 300%;
+    transition: all 300ms;
+}
+
+#WAH{
+    color: rgb(82, 82, 211);
+}
+
+#slice-bar{
+    border-top: solid white;
+}
+
+.CENT{
+    margin-top: 17%;
+    text-align: center;
+    color: rgb(36, 36, 36);
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 200ms;
+}
+.CENT:hover{
+    text-align: center;
+    color: rgb(112, 112, 112);
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 200ms;
+}
+
+#LaftMText{
+    margin-left: 10%;
+    border-left: 6px solid white;
+    padding-left: 5%;
+
+    margin-top: 5%;
+}
+
+#LaftM2Text{
+    margin-left: 17%;
+    border-left: 6px solid white;
+    padding-left: 5%;
+    font-size: 27px;
+    margin-top: 5%;
+}
+
+
+
+.Top-Title{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    margin-left: 3%;
+    margin-right: 4%;
+    font-variant: small-caps;
+    font-weight: bold;
+    background: black;
+    padding-bottom: -20px;
+    z-index: 1;
+    transition: all 200ms;
+}
+
+.ABSOL{
+    position: absolute;
+}

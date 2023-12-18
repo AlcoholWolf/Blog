@@ -1,0 +1,113 @@
+
+
+
+
+/* 링크 텍스트 */
+/* .LinkSpace{
+} */
+.LinkSpace:hover{
+    color: gray;
+}
+
+/* 엔드 텍스트 */
+.CENT{
+    margin-top: 17%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    transition: all 200ms;
+    position: relative;
+}
+.CENT:hover{
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 200ms;
+}
+
+
+
+
+.Top-Title-Menu{
+    font-size: 200%;
+    color: white;
+}
+
+.Mid-Text{
+    color: white;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+
+
+
+.Mid-Callom{
+    left: 9.4%;
+    position: relative;
+    font-weight: bold;
+    font-size: 170%;
+    text-align: left;
+}
+
+.Mid-Belu{
+    border-left: 4px solid white;
+    padding-left: 5%;
+    margin-left: 19%;
+    position: relative;
+    font-weight: bold;
+    font-size: 170%;
+    text-align: left;
+}
+
+#Mini_Font{
+    font-size: 30px;
+}
+
+#TT{
+    font-size: 400%;
+    top: 20%;
+    left: 6%;
+    position: fixed;
+}
+
+#LaftMText{
+    margin-left: 10%;
+    border-left: 6px solid white;
+    padding-left: 5%;
+
+    margin-top: 5%;
+}
+
+#LaftM2Text{
+    margin-left: 17%;
+    border-left: 6px solid white;
+    padding-left: 5%;
+    font-size: 27px;
+    margin-top: 5%;
+}
+
+#imgwhlimit{
+    width: 85%;
+}
+
+
+.LaftMImg{
+    margin-left: 50%;
+    border-left: 6px solid white;
+    padding-left: 5%;
+    padding-top: 2%;
+    margin-top: 5%;
+}
+
+#ABSOL{
+    position:absolute;
+}
+
+#LaftM25Text{
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
